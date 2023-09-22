@@ -1,0 +1,33 @@
+.result-zone {
+    background-color: black;
+    height: 40px;
+    width: 415px;
+    padding-bottom: 6px;
+    margin-top: 50px;
+    text-align: right;
+    align-items: center;
+}
+
+.result-zone span {
+    color: white;
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.calculate-button {
+    padding: 7px 40px;
+    border-radius: 8px;
+    margin-top: 2px;
+    font-size: 15px;
+    width: 100px;
+    text-align: center;
+}
+
+.calculate-button-under {
+    padding: 7px 86px;
+    border-radius: 8px;
+    margin-top: 2px;
+    font-size: 15px;
+    width: 205px;
+    text-align: center;
+}

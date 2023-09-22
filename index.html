@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>電卓</title>
+    </head>
+ 
+    <body>
+        <div class="result-zone">
+            <span id="result">0</span>
+        </div>
+        <div class="calculate-zone">
+            <button class="calculate-button" id="numberButton" onclick="output(this)">7</button>
+            <button class="calculate-button" id="numberButton" onclick="output(this)">8</button>
+            <button class="calculate-button" id="numberButton" onclick="output(this)">9</button>
+            <button class="calculate-button" id="plusButton" onclick="output(this)">+</button>
+                <br>
+            <button class="calculate-button" id="numberButton" onclick="output(this)">4</button>
+            <button class="calculate-button" id="numberButton" onclick="output(this)">5</button>
+            <button class="calculate-button" id="numberButton" onclick="output(this)">6</button>
+            <button class="calculate-button" id="minusButton" value="-" onclick="output(this)">-</button>
+                <br>
+            <button class="calculate-button" id="numberButton" onclick="output(this)">1</button>
+            <button class="calculate-button" id="numberButton" onclick="output(this)">2</button>
+            <button class="calculate-button" id="numberButton" onclick="output(this)">3</button>
+            <button class="calculate-button" id="multiButton" onclick="output(this)">*</button>
+                <br>
+            <button class="calculate-button" id="zero"  onclick="output(this)">0</button>
+            <button class="calculate-button" id="doubleZero" onclick="output(this)">00</button>
+            <button class="calculate-button" id="demicalButton" onclick="output(this)">.</button>
+            <button class="calculate-button" id="slashButton" onclick="output(this)">/</button>
+                <br>
+            <button class="calculate-button-under" onclick="output(this)">AC</button>
+            <button class="calculate-button-under" onclick="output(this)">=</button>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
